@@ -24,34 +24,9 @@ parametres_float = ['n', 'n0', 'Pdetection', 'Pmask', 'Resize', 'Ireject', 'Brat
                     'Bheight', 'Bwidth', 'drsd', 'brsd']
 parametres_str = ['inv', 'VolumeDefinition', 'DiameterDefinition']
 
-# chemin_complet = r'C:\Users\Public\Zymoptiq\ZymoSoft_V2.1.3\bin\Zyminterne.exe -i E:\GPAxHA221207-07\Images -f "G:\Mon Drive\Litteral\routine_Interf_batch\resultats_test" -o "G:\Mon Drive\Litteral\routine_Interf_batch\resultats_test\resultats_ZI" -s "G:\Mon Drive\Litteral\routine_Interf_batch\Analysis.ini" -730 -r "G:\Mon Drive\Litteral\routine_Interf_batch\AX_20x_downscaled.txt" -d true'
-
-chemin_instal_Zyminterne = r'C:\\Users\\Public\\Zymoptiq\\ZymoSoft_V2.1.3\\bin'
-# def longueur_onde_455_730():
-#     longueur_onde = ''
-#     if case_455.get() and not case_730.get():
-#         longueur_onde = '455'
-#         print('longueur d\'onde utilisée : ',longueur_onde)
-#     elif case_730.get() and not case_455.get():
-#         longueur_onde = '730'
-#         print('longueur d\'onde utilisée : ',longueur_onde)
-#     elif case_455.get() and case_730.get():
-#         print('Veuillez ne sélectionner qu\'une longueur d\'onde')
-#         messagebox.showerror("Erreur", "Veuillez ne sélectionner qu'une longueur d'onde")
-#     else:
-#         print('Sélectionner une longueur d\'onde')
-#         messagebox.showerror("Erreur", "Veuillez sélectionner une longueur d'onde")
-#     return longueur_onde
+chemin_instal_Zyminterne = r'C:\\Users\\Public\\Zymoptiq\\ZymoSoft_V3.1.1\\bin'
 
 images_reconstruction = 'true'
-
-
-# chemin_Images_input = 'E:\GPAxHA221207-07\Images'
-# chemin_parametres_Interf = 'G:\Mon Drive\Litteral\routine_Interf_batch\AX_20x_downscaled.txt'
-# chemin_parametres_statistiques = 'G:\Mon Drive\Litteral\routine_Interf_batch\Analysis.ini'
-# chemin_Reconstruction = 'G:\Mon Drive\Litteral\routine_Interf_batch\resultats_test'
-# chemin_Synthese = 'G:\Mon Drive\Litteral\routine_Interf_batch\resultats_test\resultats_ZI'
-# longueur_onde = '730'
 
 def Zyminterne(chemin_instal_Zyminterne, chemin_Images_input, chemin_parametres_Interf, chemin_parametres_statistiques,
                chemin_Reconstruction, chemin_Synthese, longueur_onde, images_reconstruction):
